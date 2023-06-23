@@ -1,0 +1,28 @@
+{
+  "name": "babel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vymatvienko/babel.git"
+  },
+  "author": "vymatvienko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vymatvienko/babel/issues"
+  },
+  "homepage": "https://github.com/vymatvienko/babel#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.22.5",
+    "@babel/core": "^7.22.5",
+    "@babel/preset-env": "^7.22.5"
+  },
+  "dependencies": {
+    "core-js": "^3.31.0"
+  }
+}
